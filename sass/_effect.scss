@@ -1,0 +1,27 @@
+
+@keyframes laluot{
+    from{-webkit-mask-position:150% 0px;mask-position:150% 0px}
+    100%{-webkit-mask-position:0% 0px;mask-position:0% 0px}
+  }
+@keyframes wiggle {
+    0% {transform: translate(-0%, 0px);}
+    10% {transform: translate(-1.4%, 6px);}
+    40% {transform: translate(-1.2%, -5px);}
+    50% {transform: translate(-1.6%, -6px);}
+    85% {transform: translate(-1.4%, 6px);}
+    100% {transform: translate(-0%, 0px);}
+  }
+.wiggleef{
+  animation-name: wiggle;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes filter {
+  0% {filter: brightness(100%);transform: scale(1);}
+  50% {filter: brightness(130%);transform: scale(0.97);}
+  100% {filter: brightness(100%);transform: scale(1);}
+}
+.filteref{
+  animation: filter 2000ms infinite ease-in-out;
+}
