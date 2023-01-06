@@ -74,7 +74,7 @@ main {position: relative;}
 
 
 /*==FOOTER=*/
-.footer{min-height: calc(314px * var(--ratio));background: url(../images/bg-footer.jpg) no-repeat top center;background-size:cover;max-width: 768px;margin:-1px auto 0 ;
+.footer{min-height: calc(314px * var(--ratio));background: url(../images/bg-footer.jpg) no-repeat top center;background-size:cover;max-width: 768px;margin:-1px auto 0 ;padding-top:2rem;
   .footer-content{display: flex;flex-direction: column;align-items: center;justify-content: center;width: 100%;
     img{max-width: 30%;display: block;}
     p{line-height: 1.4;font-weight: 500;font-size:13px;text-align: center;color: #fff;}

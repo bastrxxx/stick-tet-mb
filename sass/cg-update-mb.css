@@ -436,6 +436,7 @@ main {
   background-size: cover;
   max-width: 768px;
   margin: -1px auto 0;
+  padding-top: 2rem;
 }
 
 .footer .footer-content {
