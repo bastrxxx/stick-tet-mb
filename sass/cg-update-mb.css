@@ -566,8 +566,8 @@ main {
 }
 
 .modal-dialog .modal-content {
-  background-color: transparent;
   border: none;
+  background: url(../images/popup.png) no-repeat top center;
 }
 
 .modal-dialog .modal-content .btn-close {
@@ -588,6 +588,7 @@ main {
   max-width: 100%;
   margin: 0 auto;
   display: block;
+  width: calc(100% * var(--ratio));
 }
 
 @media (max-width: 1024px) {

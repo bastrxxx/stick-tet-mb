@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Chiến Giới Phi Tinh Xuất Kích</title>
+	<title>Chiến Giới Tết</title>
 	<link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -15,97 +15,49 @@
 <body>
 	<div class="wrapper" id="dkLogin">
       <!--Nhanvatmoi Ppopup-->
-      <div class="modal fade" id="trailer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl  modal-dialog-centered">
-          <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-              <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
-              <div class="embed-responsive embed-responsive-1by1">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-           allowfullscreen></iframe>
-             </div>	    
-          </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
+	  <div class="modal fade" id="dangnhap" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+		<div class="modal-dialog modal-xl modal-dialog-centered">
+		  <div class="modal-content p-5 border-0 mx-auto">
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/btn-close.png" alt=""/></button>
+			<div class="modal-body py-5">
+			  <h3 class="text-center py-3">Bạn chưa đăng nhập vui lòng đăng nhập để tiếp tục</h3>
+			  <a href="#" class="btndangnhap"><img src="images/btn-dangnhap.png" alt=""></a>
+			</div>
+		  </div>
+		</div>
+	</div>
 
-      <!--char1 Ppopup-->
-      <div class="modal fade" id="char1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl  modal-dialog-centered">
-          <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-              <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
-              <div class="embed-responsive embed-responsive-1by1">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-           allowfullscreen></iframe>
-             </div>	    
-          </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.char1 -->
+	<div class="modal fade" id="codehet" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+		<div class="modal-dialog modal-xl modal-dialog-centered">
+		  <div class="modal-content p-5 border-0 mx-auto">
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/btn-close.png" alt=""/></button>
+			<div class="modal-body py-5">
+			  <h3 class="text-center py-3">Số lượng code trong ngày đã hết,<br> vui lòng quay lại vào ngày mai</h3>
+			</div>
+		  </div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="chuadenngay" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+		<div class="modal-dialog modal-xl modal-dialog-centered">
+		  <div class="modal-content p-5 border-0 mx-auto">
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/btn-close.png" alt=""/></button>
+			<div class="modal-body py-5">
+			  <h3 class="text-center py-3">Chưa đến thời gian nhận Giftcode này,<br> vui lòng chờ sang ngày tiếp</h3>
+			</div>
+		  </div>
+		</div>
+	</div>
 
-      <!--char2 Ppopup-->
-      <div class="modal fade" id="char2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl  modal-dialog-centered">
-          <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-              <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
-              <div class="embed-responsive embed-responsive-1by1">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-           allowfullscreen></iframe>
-             </div>	    
-          </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.char1 -->
-
-      <!--char1 Ppopup-->
-      <div class="modal fade" id="char3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl  modal-dialog-centered">
-          <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-              <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
-              <div class="embed-responsive embed-responsive-1by1">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-           allowfullscreen></iframe>
-             </div>	    
-          </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.char1 -->
-
-      <!--char1 Ppopup-->
-      <div class="modal fade" id="char4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl  modal-dialog-centered">
-          <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-              <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
-              <div class="embed-responsive embed-responsive-1by1">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-           allowfullscreen></iframe>
-             </div>	    
-          </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.char1 -->
-		<div id="layout">
+      
+	<div id="layout">
       <div class="download fixed-top px-3 py-2">
 				<div class="container p-0">
 					<div class="left">
 						<img class="icongame me-2" src="images/icongames.png" alt=""/>
 						<div class="title-game">
-							<h4>Chiến Giới 4D</h4>
-              <span>Game Mobile</span>
+							<h4>Stickman</h4>
+              				<span>Game Mobile</span>
 						</div>
 					</div>
 					<div class="right">
@@ -143,43 +95,43 @@
 					<h3 class="title"><img src="images/title-2.png" alt="" class="mw-100 d-block mx-auto"></h3>
 					<ul>
 						<li>
-							<a href="#" class="item danhan">
+							<a href="#" class="item danhan" data-bs-toggle="modal" data-bs-target="#codehet">
 								<img src="images/it1.png" alt="" class="normal">
 								<img src="images/it1-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#dangnhap">
 								<img src="images/it2.png" alt="" class="normal">
 								<img src="images/it2-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it3.png" alt="" class="normal">
 								<img src="images/it3-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it4.png" alt="" class="normal">
 								<img src="images/it4-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it5.png" alt="" class="normal">
 								<img src="images/it5-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it6.png" alt="" class="normal">
 								<img src="images/it6-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it7.png" alt="" class="normal">
 								<img src="images/it7-ds.png" alt="" class="disable">
 							</a>

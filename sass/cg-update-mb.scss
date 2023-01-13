@@ -113,12 +113,12 @@ main {position: relative;}
 }
 
 .modal-dialog{
-  .modal-content{background-color: transparent;border:none;
+  .modal-content{border:none;background: url(../images/popup.png) no-repeat top center;
     .btn-close{position: absolute;width: calc(54px * var(--ratio));height: calc(54px * var(--ratio));z-index: 100;right:calc(1rem * var(--ratio));top:calc(1.5rem * var(--ratio));opacity: 1;
       img{max-width: 100%;}
     }
     .modal-body{
-      img{max-width: 100%;margin: 0 auto;display: block;}
+      img{max-width: 100%;margin: 0 auto;display: block;width: calc(100% * var(--ratio));}
     }
   }
 }
